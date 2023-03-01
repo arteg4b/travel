@@ -1,0 +1,112 @@
+header{
+    background-image: url(cr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(16, 76, 54);
+    height:57vh;
+    width:100% ;
+    position: relative;
+}
+.text-head{
+    position:absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 2em ;
+}
+
+.places{
+    padding: 25px;
+}
+
+.images-main{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.images{
+    width: 300px;
+}
+
+.images:hover{
+    transform: scale(1.05) ;
+    opacity: 50% ;
+    transition:0.3s ;
+    
+}
+
+.mini{
+    padding: 20px;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 108, 84);
+    width:100% ;
+    height: 100px;
+}
+
+.social{
+    display: flex;
+}
+
+.social_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+    justify-content:center ;
+    text-align: center;
+    line-height: 50px;
+    color: antiquewhite;
+    margin: 20px;
+    margin-top: 1px;
+    
+}
+ul.social{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 25px ;
+    padding:20px;
+}
+
+.facebook:hover{
+    border-color: rgb(182, 72, 72);
+    box-shadow:0px 0px 25px rgb(182, 72, 72) ;
+    transition: 1s;
+
+
+}
+.instagram:hover{
+    border-color: rgb(175, 182, 72);
+    box-shadow:0px 0px 25px rgb(175, 182, 72) ;
+    transition: 1s;
+
+}
+.twitter:hover{
+    border-color: rgb(72, 133, 182);
+    box-shadow:0px 0px 25px rgb(72, 133, 182) ;
+    transition: 1s;
+
+}
+.youtube:hover{
+    border-color: rgb(144, 72, 182);
+    box-shadow:0px 0px 25px rgb(144, 72, 182) ;
+    transition: 1s;
+
+}
+.github:hover{
+    border-color: rgb(72, 207, 97, 0.979);
+    box-shadow:0px 0px 25px rgb(72, 207, 97, 0.979) ;
+    transition: 1s;
+
+}
+
+
+
